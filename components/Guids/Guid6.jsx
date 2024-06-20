@@ -18,7 +18,6 @@ const Guid6 = ({setOrder}) => {
                     <div className='w-4 h-2 bg-primary-1 rounded  opacity-50'></div>
                     <div className='w-4 h-2 bg-primary-1 rounded ms-1 opacity-50'></div>
                     <div className='w-4 h-2 bg-primary-1 rounded ms-1 '></div>
-
                 </div>
                 <Link href={"/dashboard/doctors"} className='text-white rounded-full bg-primary-1 px-4 py-3 text-2xl'><i class="ri-arrow-right-line "></i></Link>
 
