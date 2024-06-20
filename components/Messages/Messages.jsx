@@ -15,7 +15,7 @@ const Messages = () => {
                 <button className='w-1/3 text-sm  rounded-lg py-3 '>Private</button>
             </div>
             <Card data={{img:"p1.svg",name:"Dr. Marcus Horizon",msg:"hi there",hour:"10:00 AM"}} />
-            <Card data={{img:"p2.svg",name:"Dr. Alysa Hana",msg:"i want to help",hour:"09:45 AM"}} />
+            <Card data={{img:"p4.svg",name:"Dr. Alysa Hana",msg:"i want to help",hour:"09:45 AM"}} />
             <Card data={{img:"p3.svg",name:"Dr. Maria Elena",msg:"need some clarification",hour:"08:43 AM"}} />
         </div>
     )
