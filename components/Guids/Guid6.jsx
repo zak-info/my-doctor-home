@@ -10,7 +10,7 @@ const Guid6 = ({setOrder}) => {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0.1, x: -85 }}
         className=' w-screen h-screen flex flex-col items-center'>
-            <Image src={"/images/logo.png"} width={100} height={100} className='w-3/5 h-30 ' />
+            <Image src={"/images/logo.png"} width={100} height={100} className='w-3/5 md:w-1/5 h-30 ' />
             <Image src={"/images/home6.svg"} width={100} height={100} className='w-4/5 h-40 ' />
             <button  className='w-3/5  mt-12 text-xl bg-primary-1 py-3 flex justify-center items-center rounded-3xl font-semibold' >Ambulance</button>
             <div className='w-full flex justify-between items-center mt-4 px-8'>

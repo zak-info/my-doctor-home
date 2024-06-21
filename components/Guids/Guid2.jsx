@@ -10,7 +10,7 @@ const Guid2 = ({ setOrder }) => {
             exit={{ opacity: 0.1, x: -85 }}
             // transition={{ duration: 0.2, type: "tween" }}
             className=' w-screen h-screen flex flex-col items-center'>
-            <Image src={"/images/logo.png"} width={100} height={100} className='w-3/5 h-30 ' />
+            <Image src={"/images/logo.png"} width={100} height={100} className='w-3/5 md:w-1/5 h-30 ' />
             <Image src={"/images/home2.svg"} width={100} height={100} className='w-4/5 h-40 ' />
             <button className='w-3/5 h-32  mt-12 text-xl bg-primary-1 py-3 flex justify-center items-center rounded-3xl font-semibold' >Contact Your Doctor Via Chat</button>
             <div className='bottom-0 mb-8 w-full flex justify-between items-center mt-4 px-8'>

@@ -25,7 +25,8 @@ const Login = () => {
     }
 
     return (
-        <form onSubmit={Login} className='relative w-screen h-screen flex flex-col items-center pt-8'>
+        <div className='w-screen h-screen flex justify-center items-center'>
+        <form onSubmit={Login} className='relative w-1/4 h-5/6 border rounded-xl  flex flex-col items-center pt-8'>
             <h1 className='text-2xl font-semibold'>Login</h1>
             {/* <Image src={"/images/logo.png"} height={100} width={100} className='absolute -z-10 mt-4 w-2/5 h-40 ' /> */}
             <div className='w-4/5 h-12 mt-12 border rounded-2xl border-primary-1-hover flex items-center '>
@@ -58,6 +59,7 @@ const Login = () => {
 
 
         </form>
+        </div>
     )
 }
 
