@@ -26,7 +26,7 @@ const Login = () => {
 
     return (
         <div className='w-screen h-screen flex justify-center items-center'>
-        <form onSubmit={Login} className='relative w-1/4 h-5/6 border rounded-xl  flex flex-col items-center pt-8'>
+        <form onSubmit={Login} className='relative w-full h-full   md:w-1/4 md:h-5/6 border rounded-xl  flex flex-col items-center pt-8'>
             <h1 className='text-2xl font-semibold'>Login</h1>
             {/* <Image src={"/images/logo.png"} height={100} width={100} className='absolute -z-10 mt-4 w-2/5 h-40 ' /> */}
             <div className='w-4/5 h-12 mt-12 border rounded-2xl border-primary-1-hover flex items-center '>
