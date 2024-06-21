@@ -22,8 +22,8 @@ const layout = ({ children }) => {
                 <Link href={"/dashboard/calender"}>
                     <i className={`ri-calendar-line text-2xl ${last_path == "calender" ? "text-primary-1" : "text-gray-300"}`}></i>
                 </Link>
-                <Link href={"/dashboard/profile"}>
-                    <i className={`ri-user-3-line text-2xl ${last_path == "profile" ? "text-primary-1" : "text-gray-300"}`}></i>
+                <Link href={"/dashboard/pharmacy"}>
+                    <i className={`ri-store-2-line text-2xl ${last_path == "pharmacy" ? "text-primary-1" : "text-gray-300"}`}></i>
                 </Link>
             </div>
 
