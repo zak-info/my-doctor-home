@@ -1,11 +1,9 @@
-import Pharmacy from '@/components/Pharmacy/Pharmacy'
+import Labs from '@/components/Labs/Labs'
 import React from 'react'
 
 const page = () => {
   return (
-    <>
-
-    </>
+    <Labs />
   )
 }
 

@@ -1,11 +1,9 @@
-import Pharmacy from '@/components/Pharmacy/Pharmacy'
+import Chat from '@/components/Labs/Chat'
 import React from 'react'
 
 const page = () => {
   return (
-    <>
-
-    </>
+    <Chat />
   )
 }
 

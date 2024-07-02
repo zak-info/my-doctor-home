@@ -1,11 +1,9 @@
-import Pharmacy from '@/components/Pharmacy/Pharmacy'
+import Map from '@/components/Ambelance/Map'
 import React from 'react'
 
 const page = () => {
   return (
-    <>
-
-    </>
+    <Map />
   )
 }
 

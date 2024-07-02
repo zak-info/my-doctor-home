@@ -35,7 +35,7 @@ const layout = ({ children }) => {
                     <i className={`ri-calendar-line text-2xl`} ></i>
                     <span className='hidden md:block ms-2 font-bold'>calender</span>
                 </Link>
-                <Link href={"/dashboard/pharmacy"} className={`flex items-end ${last_path == "pharmacy" ? "text-primary-1" : "text-gray-300"}`}>
+                <Link href={"/pharmacy/jjoi"} className={`flex items-end ${last_path == "pharmacy" ? "text-primary-1" : "text-gray-300"}`}>
                     <i className={`ri-store-2-line text-2xl `}></i>
                     <span className='hidden md:block ms-2 font-bold'>pharmacy</span>
                 </Link>
